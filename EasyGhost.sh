@@ -48,7 +48,7 @@ cd /home/wwwroot/ghost
 wget http://dl.ghostchina.com/Ghost-0.7.4-zh-full.zip
 apt-get install -y unzip
 unzip Ghost-0.7.4-zh-full.zip
-wget http://theme.zzfly.net/EasyGhost/config.js
+wget https://github.com/Num0/ghost-one-key-chinese/raw/master/config.js
 ##Config Ghost
 sed -i "s/EasyGhost/"$dm"/g" 'config.js'
 
@@ -59,7 +59,7 @@ NODE_ENV=production forever start index.js
 ##Config vhost
 cd /etc/lighttpd
 mv lighttpd.conf old.conf
-wget http://theme.zzfly.net/EasyGhost/lighttpd.conf
+wget https://github.com/Num0/ghost-one-key-chinese/raw/master/lighttpd.conf
 sed -i "s/EasyGhost/"$dm"/g" 'lighttpd.conf'
 service lighttpd restart
 
