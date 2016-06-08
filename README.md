@@ -1,5 +1,5 @@
 # ghost-one-key-chinese
-## ghost 0.7.4
+### 2016.6.8 更新到ghost 0.7.4
 #### 支持debian7，其他未测
 ### 安装
 sudo apt-get update
