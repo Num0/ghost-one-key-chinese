@@ -22,4 +22,4 @@ sudo update-rc.d ghost enable
 
 sudo adduser root ghost
 #### 别问我什么，我也不知道怎么写出来的。用此搭的站 http://num0.net
-##### Base on http://www.zzfly.net/easyghost/
+##### 感谢 http://www.zzfly.net/easyghost/
