@@ -1,3 +1,3 @@
 # ghost-one-key-chinese
 
-test
+0.7.4中文版
