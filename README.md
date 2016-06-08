@@ -1,3 +1,16 @@
 # ghost-one-key-chinese
-
-0.7.4中文版
+## ghost 0.7.4中文版 一键包
+#### 仅支持debian7，其他不知道
+### 安装
+sudo apt-get update
+sudo wget http://theme.zzfly.net/EasyGhost/EasyGhost.sh
+sudo sh EasyGhost.sh
+### 开机运行
+wget -P /etc/init.d/ https://raw.githubusercontent.com/Num0/ghost-one-key-chinese/master/ghost
+sudo useradd -r ghost -U
+sudo chown -R ghost:ghost /home/wwwroot/ghost/
+sudo chmod 755 /etc/init.d/ghost 
+sudo update-rc.d ghost defaults
+sudo update-rc.d ghost enable
+sudo adduser root ghost
+#### 别问我什么，我是菜鸟不懂
