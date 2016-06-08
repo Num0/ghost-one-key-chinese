@@ -21,4 +21,4 @@ sudo update-rc.d ghost defaults
 sudo update-rc.d ghost enable
 
 sudo adduser root ghost
-#### 别问我什么，我是菜鸟不懂
+#### 别问我什么，我也不知道怎么写出来的
