@@ -4,7 +4,7 @@
 ### 安装
 sudo apt-get update
 
-sudo wget http://theme.zzfly.net/EasyGhost/EasyGhost.sh
+sudo wget https://github.com/Num0/ghost-one-key-chinese/raw/master/EasyGhost.sh
 
 sudo sh EasyGhost.sh
 ### 开机运行
