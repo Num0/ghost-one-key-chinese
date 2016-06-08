@@ -3,7 +3,9 @@
 #### 支持debian7，其他未测
 ### 安装
 sudo apt-get update
+
 sudo wget https://github.com/Num0/ghost-one-key-chinese/raw/master/EasyGhost.sh
+
 sudo sh EasyGhost.sh
 ### 开机运行
 wget -P /etc/init.d/ https://raw.githubusercontent.com/Num0/ghost-one-key-chinese/master/ghost
