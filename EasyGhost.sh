@@ -3,6 +3,7 @@
 # by Rytia
 # Blog : www.zzfly.net
 # 2015.7.4
+# moded by num0 2016.6.6
 clear
 echo ""
 echo "       -----------------------------------------"
@@ -44,9 +45,9 @@ node -v
 mkdir -p /home/wwwroot/ghost
 chown -R www:www /home/wwwroot/ghost
 cd /home/wwwroot/ghost
-wget http://dl.ghostchina.com/Ghost-0.6.3-zh-full.zip
+wget http://dl.ghostchina.com/Ghost-0.7.4-zh-full.zip
 apt-get install -y unzip
-unzip Ghost-0.6.3-zh-full.zip
+unzip Ghost-0.7.4-zh-full.zip
 wget http://theme.zzfly.net/EasyGhost/config.js
 ##Config Ghost
 sed -i "s/EasyGhost/"$dm"/g" 'config.js'
